@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--* fav icon *-->
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
+    <!--* icon *-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--* style *-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--* Aos css *-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Juice Website</title>
+  </head>
+  <body>
+    <!--* header  *-->
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav-bar">
+            <div class="logo">LOVELY SHOP</div>
+            <div class="open-menu">
+              <i class="bx bx-menu"></i>
+            </div>
+            <ul class="menu">
+              <li class="close-menu"><i class="bx bx-x"></i></li>
+              <li class="menu-item"><a href="#">Home</a></li>
+              <li class="menu-item"><a href="#">Shop</a></li>
+              <li class="menu-item"><a href="#">About us</a></li>
+              <li class="menu-item"><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--* main *-->
+
+    <!--* home section *-->
+    <section class="home">
+      <div class="container">
+        <div class="row">
+          <div class="home-left">
+            <h1 data-aos="fade-right" data-aos-duration="1000">A Fresh Juice</h1>
+            <p>
+              The raspberry; its pistils are called drupelets because each pistil is like a small drupe attached to the receptacle. In some bramble fruits such as blackberry the receptacle, an accessory part, elongates and then develops as part of the fruit, making the blackberry an aggregate-accessory fruit.[25] The strawberry is also an aggregate-accessory fruit, of which the seeds are contained in the achenes.[26] Notably in all these examples, the fruit develops from a single flower, with numerous pistils.
+            </p>
+            <button class="contained-btn">
+              Order Now <i class="bx bx-chevrons-right"></i>
+            </button>
+          </div>
+          <div class="home-right">
+            <img data-aos="fade-left" data-aos-duration="1000" class="home-right-img-1" src="./images/juice-1.png" alt="" />
+            <img class="home-right-img-2" src="./images/juice-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--* product section *-->
+    <section class="product">
+      <div class="container">
+        <h2>
+          Prodouct <br />
+          You may like
+        </h2>
+        <div class="row" id="cards-container"></div>
+      </div>
+    </section>
+    <!--* banner section *-->
+    <section class="banner">
+      <div class="container">
+        <div class="row" data-aos="zoom-in">
+          <img src="./images/banner.png" alt="" />
+          <div class="banner-content">
+            <h2>
+              Simple Way To Get <br />
+              Deliciuos Juice
+            </h2>
+            <button class="contained-btn">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--* about us section *-->
+    <section class="about">
+      <div class="container">
+        <div class="row" data-aos="zoom-in">
+          <div class="about-left">
+            <h2>How Do We Make Fresh Juice?</h2>
+            <p>
+              
+            </p>A multiple fruit is formed from a cluster of flowers, (a 'multiple' of flowers) —also called an inflorescence. Each ('smallish') flower produces a single fruitlet, which, as all develop, all merge into one mass of fruit.[27] Examples include pineapple, fig, mulberry, Osage orange, breadfruit. An inflorescence (a cluster) of white flowers, called a head, is produced first. After fertilization, each flower in the cluster develops into a drupe; as the drupes expand, they develop as a connate organ, merging into a multiple fleshy fruit called a syncarp.
+
+            Progressive stages of multiple flowering and fruit development can be observed on a single branch of the Indian mulberry, or noni, (see image). During the sequence of development, a progression of second, third, and more inflorescences are initiated in turn at the head of the branch or stem.
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Dignissimos sunt deserunt voluptatum ab, quia aliquid in iure
+              consequatur, doloribus nihil, enim libero qui? Nam, deleniti natus
+              porro nulla minima autem!
+            </p>
+          </div>
+          <div class="about-right">
+            <img src="./images/juice-6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--* footer *-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>OUR DISCOUNTS</h4>
+            <form>
+              <input type="email" autocomplete="off" placeholder="your email"/>
+              <button class="contained-btn">Send</button>
+            </form>
+          </div>
+          <div class="footer-col">
+            <h4>OUR SOCIAL MEDIA</h4>
+            <ul>
+              <li><i class='bx bxl-instagram-alt'></i></li>
+              <li><i class='bx bxl-facebook-circle'></i></li>
+              <li><i class='bx bxl-twitter'></i></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li>Blog</li>
+              <li>Product Updates</li>
+              <li>Testimonials</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>COMPANY</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Privacy Policy</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!--* js *-->
+  <script src="./main.js"></script>
+  <!--* Aos js *-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+     AOS.init();
+  </script>
+</html>
